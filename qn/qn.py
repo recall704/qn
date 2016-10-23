@@ -44,7 +44,7 @@ def help():
     help_string =  """
     Usage:
 
-        qiniu init ak="your_access_key" sk="your_secret_key" bk="your_bucket_name" host_name="your_host_name"
+        qiniu init --ak="your_access_key" --sk="your_secret_key" --bk="your_bucket_name" --host_name="your_host_name"
 
         qiniu put file_path
     """
