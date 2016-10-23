@@ -79,14 +79,12 @@ def main():
     )
     
     options, args = parser.parse_args(sys.argv[1:])
-    print options, args, dir(options)
 
     if len(args) == 0:
         help()
         return
 
     action = args[0]
-    print args, options
     if action.strip() == 'init':
         ak = options.ak
         sk = options.sk
